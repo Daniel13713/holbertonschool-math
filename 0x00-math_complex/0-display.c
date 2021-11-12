@@ -11,19 +11,19 @@ void display_complex_number(complex c)
 {
 	if (c.re)
 	{
-		printf("%d", c.re);
+		printf("%.0f", c.re);
 	}
 	if (c.im > 0)
 	{
-		printf(" + %di", c.im);
+		printf(" + %.0fi", c.im);
 	}
 	else if (c.im < 0 && c.re != 0)
 	{
-		printf(" - %di", -1 * c.im);
+		printf(" - %.0fi", -1 * c.im);
 	}
 	else if (c.im < 0 && c.re == 0)
 	{
-		printf("%di", c.im);
+		printf("%.0fi", c.im);
 	}
 	printf("\n");
 }
