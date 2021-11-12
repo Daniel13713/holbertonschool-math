@@ -15,7 +15,7 @@ void display_complex_number(complex c)
 	}
 	if (c.re)
 	{
-		printf("%.0f", c.re);
+		printf("%0.1f", c.re);
 	}
 	if (c.im > 0)
 	{
@@ -29,7 +29,7 @@ void display_complex_number(complex c)
 		}
 		else
 		{
-			printf(" + %.0fi", c.im);
+			printf(" + %0.1fi", c.im);
 		}
 	}
 	else if (c.im < 0)
@@ -44,7 +44,7 @@ void display_complex_number(complex c)
 		}
 		else
 		{
-			printf(" - %.0fi", -1 * c.im);
+			printf(" - %0.1fi", -1 * c.im);
 		}
 	}
 	printf("\n");
