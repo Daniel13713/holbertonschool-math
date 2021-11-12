@@ -10,8 +10,8 @@
 
 typedef struct complex_number
 {
-	double re;
-	double im;
+	int re;
+	int im;
 } complex;
 
 void display_complex_number(complex c);
