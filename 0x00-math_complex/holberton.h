@@ -1,6 +1,7 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 #include <stdio.h>
+#include <math.h>
 
 /**
  * struct complex_number - struct
@@ -16,5 +17,6 @@ typedef struct complex_number
 
 void display_complex_number(complex c);
 complex conjugate(complex c);
+double modulus(complex c);
 
 #endif
