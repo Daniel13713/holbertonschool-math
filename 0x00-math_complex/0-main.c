@@ -15,10 +15,13 @@ int main(void)
     c1.im = 2;
     display_complex_number(c1);
     c1.re = 1;
-    c1.im = 0;
+    c1.im = 1;
     display_complex_number(c1);
-    c1.re = 0.5;
-    c1.im = -1.9;
+    c1.re = 0;
+    c1.im = -1;
+    display_complex_number(c1);
+    c1.re = 1;
+    c1.im = -1;
     display_complex_number(c1);
     return (0);
 }
